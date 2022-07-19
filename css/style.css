@@ -1,0 +1,382 @@
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    font-weight: 350;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav{
+  display: flex;
+}
+
+#menu{
+    height: 55px;
+    width: 55px;
+    background-color: #FC66AE;
+    margin: 14px;
+    margin-right: 1000px;
+    box-shadow: 0px 2px 5px #BA4A80;
+}
+
+header{
+    background-color: #FFA6D1;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    box-shadow: 0px 5px 5px #edebeb;
+    position: fixed;
+    height: 80px;
+}
+
+#centro{
+  width: 50px;
+  height: 50px;
+  justify-content: center;
+  display: grid;
+  align-items: center;
+}
+
+.linhas{
+    height: 4.5px;
+    width: 44.5px;
+    background-color: #FDF3FB;
+    margin: 5px;
+    margin-left: 9px;
+    margin-top: 7px;
+    box-shadow: 0px 5px 5px #BA4A80;
+}
+
+/* topo do site */
+#topo {
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    width: 30px;
+    height: 30px;
+}
+
+#n1{
+  padding-top: 70px;
+}
+
+#título{
+  height: 40px;
+  width: 50%;
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-bottom: 20px;
+  margin-top: 30px;
+  background-color: #FC66AE;
+  box-shadow: 0px 5px 5px #edebeb;
+  color: #FDF3FB;
+  justify-content: center;
+  display: flex;
+}
+
+#sobrenós{
+  height: 180px;
+  width: 90%;
+  margin-left:5%;
+  margin-right: 5%;
+  justify-content: center;
+  display: flex;
+  margin-bottom: 20px;
+}
+
+#texto{
+  width: 84%;
+  margin:20px 8% 0 ;
+  justify-content: center;
+}
+
+.p1{
+  font-size: 0.9em;
+  text-indent: 30px;
+  text-align: justify;
+  text-shadow: 0px 5px 5px #edebeb;
+}
+
+#produtosfoto{
+  display: flex;
+}
+
+#produtostexto{
+  display: flex;
+}
+
+#produtosbutton{
+  display: flex;
+}
+
+img{
+  width: 100%;
+}
+
+.imgprodutos1{
+  width: 35%;
+  height: 35%;
+  margin-left: 10%;
+  margin-right: 5%;
+}
+
+.imgprodutos2{
+  width: 35%;
+  height: 35%;
+  margin-left: 5%;
+  margin-right: 10%;
+}
+
+.textoprodutos1{
+  width: 35%;
+  height: 35%;
+  margin-left: 10%;
+  margin-right: 5%;
+}
+
+.textoprodutos2{
+  width: 35%;
+  height: 35%;
+  margin-left: 5%;
+  margin-right: 10%;
+}
+
+.p2{
+  justify-content: center;
+  width: 100%;
+  display: flex;
+  margin-bottom: 10px;
+  font-size: 1em;
+  text-shadow: 0px 5px 5px #edebeb;
+}
+
+.buttonprodutos1{
+  justify-content: center;
+  width: 100%;
+  display: flex;
+  height: 35%;
+  margin-left: 8%;
+  margin-right: 5%;
+  border-radius: 0%;
+  border: none;
+  margin-bottom: 10px;
+  text-shadow: 0px 4px 4px #edebeb (0, 0, 0, 0.25);
+}
+
+.buttonprodutos2{
+  justify-content: center;
+  width: 100%;
+  display: flex;
+  height: 35%;
+  margin-left: 5%;
+  margin-right: 8%;
+  border-radius: 0%;
+  border: none;
+  margin-bottom: 10px;
+  text-shadow: 0px 4px 4px #edebeb (0, 0, 0, 0.25);
+}
+
+button{
+  background-color: #FC66AE;
+  font-size: 0.9em;
+  padding: 4px;
+  color: #fff;
+  box-shadow: 0px 5px 5px #edebeb;
+}
+
+button:hover{
+  background-color: #ffff;
+  font-size: 0.9em;
+  padding: 2px;
+  color: #000;
+  box-shadow: 0px 5px 5px #edebeb;
+  border: 2px solid #FC66AE;
+}
+
+#franquias{
+  height: 130px;
+  width: 90%;
+  margin-left:5%;
+  margin-right: 5%;
+  justify-content: center;
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.textofranquias{
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 20px;
+  background-color: #FC66AE;
+  box-shadow: 0px 5px 5px #edebeb;
+  color: #FDF3FB;
+  justify-content: center;
+  display: flex;
+}
+
+.p3{
+  padding: 10px;
+  font-size: 1em;
+  text-align: justify;
+  text-shadow: 0px 4px 4px #edebeb (0, 0, 0, 0.25);
+}
+
+footer{
+  padding: 10px;
+  background-color: #FC66AE;
+}
+
+.p4{
+  padding: 3px;
+  font-size: 1em;
+  text-align: justify;
+  text-shadow: 0px 4px 4px #edebeb (0, 0, 0, 0.25);
+  color: #fff;
+}
+
+.imgpagamento1{
+  width: 56%;
+  height: 80px;
+  margin-left: 5%;
+  margin-right: 2.5%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.imgpagamento2{
+  width: 34%;
+  height: 80px;
+  margin-left: 2.5%;
+  margin-right: 5%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.imgpagamento3{
+  height: 80px;
+  width: 90%;
+  margin-left:5%;
+  margin-right: 5%;
+  justify-content: center;
+  display: flex;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#produtosfoto{
+  display: flex;
+}
+
+#produtosfoto1{
+  display: flex;
+}
+
+/* Smartphone Portrait >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+/* Cabeçalho */
+header {
+    height: 80px;
+    background-color: #FFA6D1;
+}
+
+#logo img {
+    width: 128px;
+    height: 128px;
+}
+
+#check {
+    display: none;
+}
+
+nav ul {
+    list-style: none;
+    background-color: #FFA6D1;
+    height: 100vh;
+    position: fixed;
+    top: 80px;
+    right: -100%;
+    transition: all 0.5s;
+}
+
+#check:checked ~ ul {
+    right: 0;
+}
+
+nav ul li {
+    padding: 20px;
+    border-top: 3px solid #fff;;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    display: flex;
+}
+
+/* Smartphone Landscape >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+@media (min-width: 576px) {
+    /* Layout */
+    .Container {
+        max-width: 540px;
+    }
+}
+
+/* Tablet Portrait >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+@media (min-width: 768px) {
+    /* Layout */
+    .Container {
+        max-width: 720px;
+    }
+}
+
+/* Tablet Landscape >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+@media (min-width: 992px) {
+    /* Layout */
+    .Container {
+        max-width: 960px;
+    }
+
+    /* Destaque */
+    main {
+        height: 70vh;
+    }
+}
+
+/* PC >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+@media (min-width: 1200px) {
+    /* Layout */
+    .Container {
+        max-width: 1140px;
+    }
+    
+    /* Cabeçalho */
+    header {
+        height: 80px;
+    }
+    
+    #logo img {
+        width: 189px;
+        height: 189px;
+        margin-top: 30px;
+    }
+
+    label {
+        display: none;
+    }
+
+    nav ul {
+        position: static;
+        height: auto;
+        background-color: transparent;
+    }
+
+    nav ul li {
+        float: left;
+        border: 0;
+    }
+
+    nav ul li a {
+        color: #fff;
+    }
+}
