@@ -95,6 +95,7 @@ header{
   text-indent: 30px;
   text-align: justify;
   text-shadow: 0px 5px 5px #edebeb;
+  display: flex;
 }
 
 #produtosfoto{
@@ -225,18 +226,19 @@ button:hover{
 footer{
   padding: 10px;
   background-color: #FC66AE;
+  height: 79vh;
 }
 
 .p4{
-  padding: 3px;
-  font-size: 1em;
+  padding: 8px;
+  font-size: 1.2em;
   text-align: justify;
   text-shadow: 0px 4px 4px #edebeb (0, 0, 0, 0.25);
   color: #fff;
 }
 
 .imgpagamento1{
-  width: 56%;
+  width: 40%;
   height: 80px;
   margin-left: 5%;
   margin-right: 2.5%;
@@ -245,7 +247,7 @@ footer{
 }
 
 .imgpagamento2{
-  width: 34%;
+  width: 40%;
   height: 80px;
   margin-left: 2.5%;
   margin-right: 5%;
@@ -349,7 +351,45 @@ nav ul li a {
     .Container {
         max-width: 1140px;
     }
+
+    #texto{
+      display: flex;
+      width: 95%;
+      margin: 2.5%;
+    }
+
+    h2{
+      font-weight: 400;
+    }
+
+    img#sobrenós{
+      width: 65%;
+      margin-right: 17.5%;
+      margin-left: 17.5%;
+    }
+
+    #p6{
+      font-size: 1.2em;
+      padding: 2%;
+    }
     
+    #imgpro{
+      display: flex;
+    }
+
+    #título{
+
+      padding: 0.5% 0;
+      width: 20%;
+      margin-right: 40%;
+      margin-left: 40%;
+    }
+
+    #sobrenós{
+      height: 45vh;
+      margin-bottom: 0;
+    }
+
     /* Cabeçalho */
     header {
         height: 80px;
