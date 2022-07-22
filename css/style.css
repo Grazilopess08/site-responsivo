@@ -91,6 +91,8 @@ header{
 }
 
 .p1{
+  margin-top: 10px;
+  margin-bottom: 20px;
   font-size: 0.9em;
   text-indent: 30px;
   text-align: justify;
@@ -195,7 +197,7 @@ button:hover{
 }
 
 #franquias{
-  height: 130px;
+  height: 200px;
   width: 90%;
   margin-left:5%;
   margin-right: 5%;
@@ -398,9 +400,9 @@ nav ul li a {
 
   #p6{
     font-size: 1em;
-    padding-left: 5%;
-    padding-right: 5%;
-    padding-top: 5%;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 3%;
   }
   
   #imgpro{
@@ -462,6 +464,19 @@ nav ul li a {
     .Container {
         max-width: 720px;
     }
+
+    img#sobrenós{
+      height: 300px;
+    }
+   
+    #sobrenós{
+      height: 200px;
+    }
+
+    #franquias{
+      height: 230px;
+    }
+
 }
 
 /* Tablet Landscape >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
@@ -474,6 +489,18 @@ nav ul li a {
     /* Destaque */
     main {
         height: 70vh;
+    }
+
+    img#sobrenós{
+      height: 300px;
+    }
+   
+    #sobrenós{
+      height: 250px;
+    }
+
+    #franquias{
+      height: 250px;
     }
 }
 
@@ -516,7 +543,7 @@ nav ul li a {
    }
 
    #franquias{
-    height: 200px;
+    height: 280px;
     width: 90%;
     margin-left:5%;
     margin-right: 5%;
@@ -568,20 +595,20 @@ nav ul li a {
     }
 
     img#sobrenós{
-      height: 380px;
+      height: 370px;
     }
 
     #p6{
       font-size: 1.4em;
-      padding-left: 5%;
-      padding-right: 5%;
+      padding-left: 2%;
+      padding-right: 2%;
       padding-bottom: 0%;
     }
 
     .textofranquias{
-      width: 78%;
-      margin-left: 11%;
-      margin-right: 11%;
+      width: 80.8%;
+      margin-left: 9.6%;
+      margin-right: 9.6%;
       margin-bottom: 20px;
       background-color: #FC66AE;
       box-shadow: 0px 5px 5px #edebeb;
