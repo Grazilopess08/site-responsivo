@@ -287,6 +287,11 @@ header {
     height: 128px;
 }
 
+.p1{
+  margin-left: 4%;
+  margin-right: 4%;
+}
+
 #check {
     display: none;
 }
@@ -320,8 +325,135 @@ nav ul li a {
 @media (min-width: 576px) {
     /* Layout */
     .Container {
-        max-width: 540px;
-    }
+      max-width: 1140px;
+  }
+
+  #flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 92%;
+    margin-left: 4%;
+    margin-right: 4%;
+  }
+
+  .imgprodutos1,.imgprodutos2{
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+  .buttonprodutos1,.buttonprodutos2{
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 100%;
+    margin-left: 8%;
+    margin-right: 8%;
+  }
+
+  .textoprodutos1,.textoprodutos2{
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+ .protam{
+  width: 50%;
+ }
+
+ #franquias{
+  height: 170px;
+  width: 96%;
+  margin-left: 2%;
+  margin-right: 2%;
+  justify-content: center;
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.textofranquias{
+  width: 91%;
+  margin-left: 4.5%;
+  margin-right: 4.5%;
+}
+
+  .franquia {
+    width: 50%;
+  }
+
+  #texto{
+    display: flex;
+    width: 95%;
+    margin: 2.5%;
+  }
+
+  h2{
+    font-weight: 400;
+  }
+
+  img#sobrenós{
+    width: 80%;
+    margin-right: 10%;
+    margin-left: 10%;
+    height: 250px;
+  }
+
+  #p6{
+    font-size: 1em;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 5%;
+  }
+  
+  #imgpro{
+    display: flex;
+  }
+
+  #título{
+
+    padding: 0.5% 0;
+    width: 20%;
+    margin-right: 40%;
+    margin-left: 40%;
+  }
+
+  #sobrenós{
+    height: 60vh;
+    margin-bottom: 0;
+  }
+
+  /* Cabeçalho */
+  header {
+      height: 80px;
+  }
+  
+  #logo img {
+      width: 189px;
+      height: 189px;
+      margin-top: 30px;
+  }
+
+  label {
+      display: none;
+  }
+
+  nav ul {
+      position: static;
+      height: auto;
+      background-color: transparent;
+  }
+
+  nav ul li {
+      float: left;
+      border: 0;
+  }
+
+  nav ul li a {
+      color: #fff;
+  }
+
+  footer{
+    height: 600px;
+  }
+
 }
 
 /* Tablet Portrait >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
@@ -352,6 +484,51 @@ nav ul li a {
         max-width: 1140px;
     }
 
+    #flex{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      width: 92%;
+      margin-left: 4%;
+      margin-right: 4%;
+    }
+
+    .imgprodutos1,.imgprodutos2{
+      margin-left: 10%;
+      margin-right: 10%;
+    }
+
+    .buttonprodutos1,.buttonprodutos2{
+      margin-left: 10%;
+      margin-right: 10%;
+      width: 100%;
+      margin-left: 8%;
+      margin-right: 8%;
+    }
+
+    .textoprodutos1,.textoprodutos2{
+      margin-left: 10%;
+      margin-right: 10%;
+    }
+
+   .protam{
+    width: 50%;
+   }
+
+   #franquias{
+    height: 200px;
+    width: 90%;
+    margin-left:5%;
+    margin-right: 5%;
+    justify-content: center;
+    display: flex;
+    margin-bottom: 20px;
+  }
+
+    .franquia {
+      width: 50%;
+    }
+
     #texto{
       display: flex;
       width: 95%;
@@ -378,7 +555,7 @@ nav ul li a {
     }
 
     #título{
-
+      margin-bottom: 2%;
       padding: 0.5% 0;
       width: 20%;
       margin-right: 40%;
@@ -388,6 +565,29 @@ nav ul li a {
     #sobrenós{
       height: 45vh;
       margin-bottom: 0;
+    }
+
+    img#sobrenós{
+      height: 380px;
+    }
+
+    #p6{
+      font-size: 1.4em;
+      padding-left: 5%;
+      padding-right: 5%;
+      padding-bottom: 0%;
+    }
+
+    .textofranquias{
+      width: 78%;
+      margin-left: 11%;
+      margin-right: 11%;
+      margin-bottom: 20px;
+      background-color: #FC66AE;
+      box-shadow: 0px 5px 5px #edebeb;
+      color: #FDF3FB;
+      justify-content: center;
+      display: flex;
     }
 
     /* Cabeçalho */
